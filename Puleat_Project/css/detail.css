@@ -1,0 +1,120 @@
+.box-detail{
+    width: 80%;
+    height: 1300px;
+    margin: 0px auto;
+    margin-top: 30px;
+    display: flex;
+}
+.con-detail .box-detail .left{
+    width: 65%;
+    height: 100%;
+    padding: 20px;
+}
+.con-detail .box-detail .left .box-title{
+    width: 100%;
+    height: 130px;
+}
+.con-detail .box-detail .left .box-title h1{
+    font-size: 40px;
+}
+.con-detail .box-detail .left .box-title p{
+    margin-top: 10px;
+}
+.con-detail .box-detail .left .box-image{
+    width: 100%;
+    height: 500px;
+    margin-top: 20px;
+}
+.con-detail .box-detail .left .box-decription{
+    width: 100%;
+    height: 500px;
+}
+.con-detail .box-detail .left .box-decription p{
+    padding-top: 15px;
+    text-align: justify;
+}
+.con-detail .box-detail .left .box-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.con-detail .box-detail .right{
+    width: 35%;
+    height: 100%;
+    padding: 20px;
+}
+.con-detail .box-detail .right .box-message{
+    width: 100%;
+    height: 600px;
+    background-color: white;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.con-detail .box-detail .right .box-message .top-title{
+    width: 100%;
+    height: 80px;
+    background-color: #E02455;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.con-detail .box-detail .right .box-message .top-title p{
+    font-size: 30px;
+    color: white;
+}
+.con-detail .box-detail .right .box-message .box-contact{
+    width: 100%;
+    height: 520px;
+
+    display: flex;
+    padding: 10px;
+}
+.con-detail .box-detail .right .box-message .box-contact .left{
+    width: 50%;
+    height: 100%;
+    padding: 5px;
+}
+.con-detail .box-detail .right .box-message .box-contact .right{
+    width: 50%;
+    height: 100%;
+    padding: 5px;
+}
+.con-detail .box-detail .right .box-message .box-contact input{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: white;
+    border-bottom: 1px solid black;
+}
+.con-detail .box-detail .right .box-message .box-contact input:is(:focus-visible){
+    border-bottom: 2px solid #E02455;
+    margin-top: -10px;
+}
+.con-detail .box-detail .right .box-message .box-contact select{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color:#E02455;
+    color:white;
+    border-radius: 7px;
+}
+.con-detail .box-detail .right .box-message .box-contact .date{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color:#E02455;
+    color:white;
+    border-radius: 7px;
+}
+.con-detail .box-detail .right .box-message .box-contact .left button{
+    width: 140px;
+    padding: 14px 20px;
+    background-color: #E02455;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
